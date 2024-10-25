@@ -1,0 +1,16 @@
+.addpage{
+    margin-top:10px;
+}
+
+@media (max-width: 900px) {
+    .addpage{
+        margin-top:10px;
+        margin-right: 40px;
+    }
+
+}
+
+.MuiFormHelperText-root {
+    color: red; /* Ensure color is appropriate for error text */
+  }
+  

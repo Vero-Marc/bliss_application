@@ -1,0 +1,64 @@
+/* src/features/products/products.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* gap: 20px; */
+    padding: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* padding: 20px; */
+    text-align: left;
+    max-width: 220px;
+    /* width: 200px; */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    /* border-radius: 8px; */
+    object-fit: cover;
+    display:block;
+    margin:0;
+    padding:0;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    margin: 10px 0;
+    padding:  0px 10px 0px 10px;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding:  0px 10px 0px 10px;
+  }
+  
+  .product-button {
+    background-color: #7B967A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    /* border-radius: 4px; */
+    cursor: pointer;
+  }
+ 
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .product-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 960px) {
+    .product-list {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  

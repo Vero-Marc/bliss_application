@@ -1,0 +1,35 @@
+/* src/fonts.css */
+@font-face {
+    font-family: 'bliss';
+    src: url('../src/assets/fonts/GreatVibes-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'purebliss';
+    src: url('../src/assets/fonts/FontsFree-Net-Dream-Avenue.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pureblissPoppins';
+    src: url('../src/assets/fonts/Poppins-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pureblissPoppinsLight';
+    src: url('../src/assets/fonts/Poppins-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pureblissAlexBrush';
+    src: url('../src/assets/fonts/AlexBrush-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

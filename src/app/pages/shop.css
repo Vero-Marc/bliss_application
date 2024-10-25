@@ -1,0 +1,217 @@
+.shop-section {
+    background-color: #ECE6D8;
+    overflow: hidden;
+}
+
+.prod-section {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.prod-section .prod-label {
+    background-color: #6B4028;
+    height: 100px;
+    transform: translateY(-300px);
+}
+
+.additonal-section {
+    text-align: center;
+}
+
+/* src/pages/shop.css */
+.shop-page {
+    text-align: center;
+    padding: 20px;
+    /* margin-bottom: 4em; */
+}
+
+.shop-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* .shopContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shopSecImg {
+    width: 100%;
+    max-width: 100%;
+}
+
+.shopImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.shopSection {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.shopHead {
+    font-family: 'pureblissPoppinsLight';
+    color: #0C0C0C;
+}
+
+.ProductSlider {
+    position: relative;
+    margin-top: 5em;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.sliderWrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.ProductSection {
+    height: 300px;
+}
+
+.ProductImg {
+    height: 200px;
+}
+
+.sliderArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.sliderArrow:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sliderArrow.left {
+    left: -10px;
+}
+
+.sliderArrow.right {
+    right: 0px;
+}
+
+.additionalImages {
+    margin-top: 20px;
+} */
+
+
+
+/* ================================================================================== */
+/* .shopSecImg {
+    width: 100%;
+    max-width: 100%;
+}
+
+.shopImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.ProductSliderSection {
+    border: 2px solid red;
+}
+
+.ProductSlider {
+    padding: 50px;
+    position: relative;
+    border: 2px solid rgb(0, 255, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sliderArrowLeft,
+.sliderArrowRight {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.sliderArrowLeft:hover,
+.sliderArrowRight:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+} */
+/* =============================================================================================== */
+
+
+/* google code */
+/* 
+.shopSecImg {
+    width: 100%;
+    max-width: 100%;
+}
+
+.shopImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.ProductSliderSection {
+    border: 2px solid red;
+}
+
+.ProductSlider {
+    padding: 50px;
+    position: relative;
+    border: 2px solid rgb(0, 255, 42);
+}
+
+.sliderArrowLeft {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.sliderArrowLeft:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sliderArrowRight {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.sliderArrowRight:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sliderArrowLeft {
+    left: 10px;
+}
+
+.sliderArrowRight {
+    right: 10px;
+} */
+
+
+/* .ProductImg img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */

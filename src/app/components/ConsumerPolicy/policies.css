@@ -1,0 +1,129 @@
+.login-section {
+    background-color: #f1ecde;
+    padding: 0 20px 40px 20px;
+    font-family: 'pureblissPoppinsLight';
+}
+
+.profile_container{
+    /* background-color: #f1ecde; */
+    /* padding: 10 0px 40px 20px; */
+    padding-bottom: 40px;
+    padding-top:2px;
+    font-family: 'pureblissPoppinsLight';
+}
+
+.profile-div{
+    background-color: #f1ecde;
+    /* height: 100%; */
+}
+
+.login-form {
+    background-color: #f1ecde;
+    margin-top: 3em;
+    padding: 20px;
+}
+
+.login-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 500px;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+.login-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.flexclass{
+    display: flex;
+    justify-content: space-between;
+}
+.linkclass{
+    text-decoration: none;
+    color:'#151515';
+    font-weight: 600;
+    padding-top: 22px;
+}
+
+.profile_form{
+    max-width: 50%;
+    /* display: flex;
+    justify-content: center; */
+}
+
+@media (max-width: 768px) {
+    .login-section {
+        padding: 0 10px;
+    }
+
+    .login-form {
+        margin-top: 2em;
+        padding: 15px;
+    }
+
+    .login-img {
+        max-height: 300px;
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 425px) {
+    .login-form {
+        margin-top: 1.5em;
+        padding: 10px;
+    }
+
+    .login-img {
+        max-height: 250px;
+        margin-top: 0.5em;
+    }
+}
+
+@media (max-width: 375px) {
+    .login-section {
+        padding: 0 5px;
+    }
+
+    .login-form {
+        margin-top: 1em;
+        padding: 8px;
+    }
+
+    .login-img {
+        max-height: 200px;
+        margin-top: 0.3em;
+    }
+}
+
+@media (max-width: 320px) {
+    .login-section {
+        padding: 0 5px;
+    }
+
+    .login-form {
+        margin-top: 0.5em;
+        padding: 5px;
+    }
+
+    .login-img {
+        max-height: 180px;
+        margin-top: 0.2em;
+        margin-bottom: 3em;
+        padding-bottom: 15px;
+    }
+}
+
+.policy-head{
+    text-transform: uppercase; 
+    padding: 0 5px;
+    letter-spacing: 4px;
+    font-family: 'pureblissPoppinsLight';
+    text-align: center;
+  }

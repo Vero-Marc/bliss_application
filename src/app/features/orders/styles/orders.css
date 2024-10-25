@@ -1,0 +1,62 @@
+.order-form{
+    background-color: #f1ecde;
+    display:flex;
+}
+.order_container{
+    /* background-color: #f1ecde; */
+    /* padding: 10 0px 40px 20px; */
+    padding-bottom: 40px;
+    padding-top:2px;
+    font-family: 'pureblissPoppinsLight';
+}
+
+.checkout-container {
+    padding: 10px;
+    margin-top: 32px;
+  }
+  
+  .summary-container {
+    padding: 16px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  @media (max-width: 600px) {
+    .checkout-container {
+      padding: 16px;
+    }
+  
+    .summary-container {
+      padding: 12px;
+    }
+
+    .order-form{
+      display:block;
+    }
+  }
+
+  /* App.css */
+/* .order-container {
+    padding: 24px;
+    margin-top: 32px;
+    background-color: #fff;
+  } */
+  
+  .order-item {
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  @media (max-width: 600px) {
+    .order-container {
+      padding: 16px;
+    }
+  
+    .order-item {
+      padding: 12px;
+    }
+  }

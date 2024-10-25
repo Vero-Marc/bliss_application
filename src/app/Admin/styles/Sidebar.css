@@ -1,0 +1,55 @@
+.sidebar{
+    position:fixed;
+    top:0;
+    right:0;
+    height:100vh;
+    width:250px;
+    z-index:999;
+    background-color: rgba(255, 255, 255, 0.514);
+    box-shadow:-10px 0px 10px rgba(0,0,0,0.1); 
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+  /* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: slateblue;
+    height: 70px;
+    padding: 20px;
+}
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+  
+#mySidenav a:hover {
+    left:0;
+    width: 140px;
+  }
+  
+#Dash {
+    top: 70px;
+    height: 658px;
+    background-color:slateblue;
+    overflow: hidden;
+  }

@@ -1,0 +1,242 @@
+/* Footer.css
+.footer-container {
+    position: relative;
+    z-index: 2;
+    margin-top: 16px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.alex-brush-1 {
+    font-family: 'pureblissAlexBrush';
+    font-size: 3rem;
+    color: #282c34;
+}
+
+.alex-brush-2 {
+    font-family: 'pureblissAlexBrush';
+    font-size: 5rem;
+    color: #282c34;
+}
+
+.footer-text {
+    font-family: 'pureblissPoppins';
+    font-size: 1rem;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    color: #282c34;
+}
+
+.footer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.footer-social a {
+    color: white;
+}
+
+.social-icons {
+    color: #74512D;
+}
+
+
+@media (max-width: 768px) {
+    .alex-brush-1 {
+        font-size: 2.5rem;
+    }
+
+    .alex-brush-2 {
+        font-size: 4rem;
+    }
+
+    .footer-text {
+        font-size: 0.9rem;
+    }
+
+    .footer-image {
+        height: 250px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .footer-text {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .footer-container {
+        display: block;
+    }
+}
+
+@media (max-width: 320px) {
+    .alex-brush-1 {
+        font-size: 1.5rem;
+    }
+
+    .alex-brush-2 {
+        font-size: 2.5rem;
+    }
+
+    .footer-text {
+        font-size: 0.6rem;
+    }
+
+    .footer-image {
+        height: 150px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    .social-icons .MuiSvgIcon-root {
+        font-size: 1.5rem;
+    }
+
+    .copyRight {
+        font-size: 1px;
+        margin-top: 40px;
+    }
+} */
+
+
+/* Footer.css */
+.footer-container {
+    position: relative;
+    z-index: 2;
+    margin-top: 16px;
+    border: 2px solid red;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.alex-brush-1 {
+    font-family: 'pureblissAlexBrush';
+    font-size: 3rem;
+    color: #282c34;
+}
+
+.alex-brush-2 {
+    font-family: 'pureblissAlexBrush';
+    font-size: 5rem;
+    color: #282c34;
+}
+
+.footer-text {
+    font-family: 'pureblissPoppins';
+    font-size: 1rem;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    color: #282c34;
+}
+
+.footer-image {
+    /* width: 100%;
+    height: 100%; */
+    width:200px;
+    height:'auto';
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.footer-social a {
+    color: white;
+}
+
+.social-icons {
+    color: #74512D;
+}
+
+.copyRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .alex-brush-1 {
+        font-size: 2.5rem;
+    }
+
+    .alex-brush-2 {
+        font-size: 4rem;
+    }
+
+    .footer-text {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .footer-image {
+        height: 250px;
+    }
+
+    .footer-social {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer-container {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .alex-brush-1 {
+        font-size: 1.5rem;
+    }
+
+    .alex-brush-2 {
+        font-size: 2.5rem;
+    }
+
+    .footer-text {
+        font-size: 0.6rem;
+    }
+
+    .footer-image {
+        height: 150px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    .social-icons .MuiSvgIcon-root {
+        font-size: 1.5rem;
+    }
+
+    .copyRight {
+        margin-top: 20px;
+    }
+}

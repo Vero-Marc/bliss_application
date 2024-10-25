@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+.craftsmanship-container {
+    text-align: center;
+    background-color: #ECE6D8;
+}
+
+.craftsmanship-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.craftsmanship-img img {
+    width: 100%;
+    height: auto;
+}
+
+.textContent {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 40px;
+    /* margin-bottom: 4em; */
+}
+
+.Heading {
+    color: #6B4226;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    /* font-family: '"Marcellus"'; */
+}
+
+.Paragraph {
+    font-family: 'pureblissPoppinsLight';
+    color: #222831;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.craft-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.playIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.craft-text {
+    color: #6B4028;
+    font-style: italic;
+}
+
+.craftConText {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+
+}
+
+.craftConText-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.craft-text-2 {
+    text-align: start;
+}
+
+/* Modal styling */
+.modalStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 24px;
+    padding: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .textContent {
+        padding: 10px;
+    }
+
+    .Heading {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+
+    .Paragraph {
+        font-size: 1rem;
+    }
+
+    .craftContent {
+        align-items: start;
+    }
+
+    .craftContent-2 {
+        align-items: start;
+    }
+
+    .craft-text-2 {
+        text-align: start;
+    }
+}
+
+@media (max-width: 576px) {
+    .textContent {
+        padding: 10px;
+    }
+
+    .Heading {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+
+    .Paragraph {
+        font-size: 1rem;
+    }
+
+    .craftContent {
+        align-items: start;
+    }
+
+    .craftContent-2 {
+        align-items: start;
+    }
+
+    .craft-text-2 {
+        text-align: start;
+    }
+}
+
+@media (max-width: 320px) {
+    .textContent {
+        padding: 10px;
+    }
+
+    .Heading {
+        font-size: 1.25rem;
+        padding-bottom: 10px;
+    }
+
+    .Paragraph {
+        font-size: 0.875rem;
+    }
+
+    .craftContent {
+        align-items: start;
+    }
+
+    .craftContent-2 {
+        align-items: start;
+    }
+
+    .craft-text-2 {
+        text-align: start;
+    }
+}
+
+
+/* .craftsmanship-container {
+    text-align: center;
+}
+
+.craftsmanship-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.craftsmanship-img img {
+    width: 100%;
+    height: auto;
+}
+
+.textContent {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 10px;
+}
+
+.Heading {
+    color: #6B4226;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.Paragraph {
+    font-family: 'pureblissPoppinsLight';
+    color: #222831;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+} */
+
+
+/* 
+@media (max-width: 320px) {
+    .textContent {
+        padding: 10px;
+    }
+
+    .Heading {
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .Paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .textContent {
+        padding: 10px;
+    }
+
+    .Heading {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+
+    .Paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .textContent {
+        padding: 10px;
+    }
+
+    .Heading {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+
+    .Paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .textContent {
+        padding: 20px;
+    }
+
+    .Heading {
+        font-size: 2.25rem;
+        padding-bottom: 10px;
+    }
+
+    .Paragraph {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .textContent {
+        padding: 20px;
+    }
+
+    .Heading {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    .Paragraph {
+        font-size: 1.125rem;
+    }
+} */

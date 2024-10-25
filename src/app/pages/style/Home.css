@@ -1,0 +1,82 @@
+.homediv{
+    background-color:#533638;
+}
+
+.flexdiv{
+    display:flex;
+}
+
+.home-imagediv {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 15px;
+    box-sizing: border-box; 
+}
+
+.image-container {
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px); 
+    box-sizing: border-box; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+    object-fit: cover; 
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .image-container {
+        flex: 1 1 calc(50% - 20px); 
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container {
+        flex: 1 1 100%; 
+        max-width: 100%;
+    }
+}
+
+/* .home-image img{
+    width: '290px'; height:'auto'; padding: '15px';
+} */
+
+ 
+.buttonclass{
+    display:flex;
+    justify-content: center;
+}
+.home-head {
+    letter-spacing: 1px;
+}
+.our-collection {
+    font-family: 'pureblissPoppinsLight';
+    color: #272829;
+    font-size: 18px;
+    text-align: start;
+}
+.home-head {
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-Content {
+    font-family: 'purebliss';
+    font-size: 30px;
+    font-weight: 200;
+    color: #291409;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.home-Content {
+    padding: 20px;
+}
